@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF80967E2476FB29003978F9 /* SomethingUseless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomethingUseless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF80967E2476FB29003978F9 /* Spotlight test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotlight test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8096812476FB29003978F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8096832476FB29003978F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF8096852476FB29003978F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		AF80967F2476FB29003978F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF80967E2476FB29003978F9 /* SomethingUseless.app */,
+				AF80967E2476FB29003978F9 /* Spotlight test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = SomethingUseless;
 			productName = SomethingUseless;
-			productReference = AF80967E2476FB29003978F9 /* SomethingUseless.app */;
+			productReference = AF80967E2476FB29003978F9 /* Spotlight test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -295,12 +295,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NH5BYD8NML;
 				INFOPLIST_FILE = SomethingUseless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = trofimov.spotlightTest.SomethingUseless;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Spotlight test";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,12 +314,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NH5BYD8NML;
 				INFOPLIST_FILE = SomethingUseless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = trofimov.spotlightTest.SomethingUseless;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Spotlight test";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
