@@ -22,31 +22,57 @@ class CoreSpotlightVC: UIViewController {
     
     @IBAction func addButtonAction(_ sender: Any) {
         let users = DataManager.testUsers
-        
+        addUsersToSpotlight(users: users)
+    }
+    
+    @IBAction func deleteButtonAction(_ sender: Any) {
+        CSSearchableIndex.default().deleteAllSearchableItems { (error) in
+            print("deleteAll: ", error ?? "без ошибок")
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    private func addUsersToSpotlight(users: [User]) {
         let searchableItems: [CSSearchableItem] = users.map({ (user) in
             let attributeSet = CSSearchableItemAttributeSet(itemContentType: kUTTypeData as String)
-            
+
             attributeSet.title = user.name
             attributeSet.keywords = user.name.split(separator: " ").map({ String($0) })
             attributeSet.keywords?.append(user.group)
             attributeSet.phoneNumbers = [user.phone]
             attributeSet.contentDescription = user.group
+
+            // так же мы можем добавить иконку, другие контакты и другую информацию
             
             let item = CSSearchableItem(uniqueIdentifier: String(user.id), domainIdentifier: nil, attributeSet: attributeSet)
-            
+
             return item
-        })
-        
-        CSSearchableIndex.default().indexSearchableItems(searchableItems) { (error) in
-            print("index", error)
-        }
+       })
+       
+       CSSearchableIndex.default().indexSearchableItems(searchableItems) { (error) in
+           print("index: ", error ?? "без ошибок")
+       }
     }
     
-    @IBAction func deleteButtonAction(_ sender: Any) {
-        CSSearchableIndex.default().deleteAllSearchableItems { (error) in
-            print("deleteAll", error)
-        }
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 extension CoreSpotlightVC: UITableViewDataSource, UITableViewDelegate {

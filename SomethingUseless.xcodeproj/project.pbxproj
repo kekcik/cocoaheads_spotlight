@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AF8096822476FB29003978F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8096812476FB29003978F9 /* AppDelegate.swift */; };
-		AF8096842476FB29003978F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8096832476FB29003978F9 /* SceneDelegate.swift */; };
 		AF8096862476FB29003978F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8096852476FB29003978F9 /* ViewController.swift */; };
 		AF8096892476FB29003978F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8096872476FB29003978F9 /* Main.storyboard */; };
 		AF80968B2476FB2C003978F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF80968A2476FB2C003978F9 /* Assets.xcassets */; };
 		AF80968E2476FB2C003978F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF80968C2476FB2C003978F9 /* LaunchScreen.storyboard */; };
 		AF8096962476FF46003978F9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8096952476FF46003978F9 /* DataManager.swift */; };
 		AF80969824771083003978F9 /* CoreSpotlightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80969724771083003978F9 /* CoreSpotlightVC.swift */; };
+		AFAF3E2E247C07920023ED43 /* NSUserActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF3E2D247C07920023ED43 /* NSUserActivityVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF80967E2476FB29003978F9 /* Spotlight test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotlight test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF80967E2476FB29003978F9 /* ПэСэБэ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ПэСэБэ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8096812476FB29003978F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF8096832476FB29003978F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF8096852476FB29003978F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF8096882476FB29003978F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF80968A2476FB2C003978F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		AF80968F2476FB2C003978F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8096952476FF46003978F9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		AF80969724771083003978F9 /* CoreSpotlightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSpotlightVC.swift; sourceTree = "<group>"; };
+		AFAF3E2D247C07920023ED43 /* NSUserActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUserActivityVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		AF80967F2476FB29003978F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF80967E2476FB29003978F9 /* Spotlight test.app */,
+				AF80967E2476FB29003978F9 /* ПэСэБэ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AF80969724771083003978F9 /* CoreSpotlightVC.swift */,
+				AFAF3E2D247C07920023ED43 /* NSUserActivityVC.swift */,
 				AF8096812476FB29003978F9 /* AppDelegate.swift */,
-				AF8096832476FB29003978F9 /* SceneDelegate.swift */,
 				AF8096852476FB29003978F9 /* ViewController.swift */,
 				AF8096872476FB29003978F9 /* Main.storyboard */,
 				AF80968A2476FB2C003978F9 /* Assets.xcassets */,
@@ -90,7 +90,7 @@
 			);
 			name = SomethingUseless;
 			productName = SomethingUseless;
-			productReference = AF80967E2476FB29003978F9 /* Spotlight test.app */;
+			productReference = AF80967E2476FB29003978F9 /* ПэСэБэ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,8 +147,8 @@
 				AF8096862476FB29003978F9 /* ViewController.swift in Sources */,
 				AF8096962476FF46003978F9 /* DataManager.swift in Sources */,
 				AF8096822476FB29003978F9 /* AppDelegate.swift in Sources */,
+				AFAF3E2E247C07920023ED43 /* NSUserActivityVC.swift in Sources */,
 				AF80969824771083003978F9 /* CoreSpotlightVC.swift in Sources */,
-				AF8096842476FB29003978F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,13 +295,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NH5BYD8NML;
 				INFOPLIST_FILE = SomethingUseless/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = trofimov.spotlightTest.SomethingUseless;
-				PRODUCT_NAME = "Spotlight test";
+				PRODUCT_NAME = "ПэСэБэ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,13 +314,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NH5BYD8NML;
 				INFOPLIST_FILE = SomethingUseless/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = trofimov.spotlightTest.SomethingUseless;
-				PRODUCT_NAME = "Spotlight test";
+				PRODUCT_NAME = "ПэСэБэ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

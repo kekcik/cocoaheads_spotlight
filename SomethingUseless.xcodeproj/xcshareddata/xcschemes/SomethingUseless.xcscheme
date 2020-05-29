@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF80967D2476FB29003978F9"
-               BuildableName = "SomethingUseless.app"
+               BuildableName = "&#x41f;&#x44d;&#x421;&#x44d;&#x411;&#x44d;.app"
                BlueprintName = "SomethingUseless"
                ReferencedContainer = "container:SomethingUseless.xcodeproj">
             </BuildableReference>
@@ -34,7 +34,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "1"
+      launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF80967D2476FB29003978F9"
-            BuildableName = "SomethingUseless.app"
+            BuildableName = "&#x41f;&#x44d;&#x421;&#x44d;&#x411;&#x44d;.app"
             BlueprintName = "SomethingUseless"
             ReferencedContainer = "container:SomethingUseless.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF80967D2476FB29003978F9"
-            BuildableName = "SomethingUseless.app"
+            BuildableName = "&#x41f;&#x44d;&#x421;&#x44d;&#x411;&#x44d;.app"
             BlueprintName = "SomethingUseless"
             ReferencedContainer = "container:SomethingUseless.xcodeproj">
          </BuildableReference>
