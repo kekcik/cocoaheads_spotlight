@@ -31,17 +31,6 @@ class CoreSpotlightVC: UIViewController {
         }
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     private func addUsersToSpotlight(users: [User]) {
         let searchableItems: [CSSearchableItem] = users.map({ (user) in
             let attributeSet = CSSearchableItemAttributeSet(itemContentType: kUTTypeData as String)
@@ -51,7 +40,6 @@ class CoreSpotlightVC: UIViewController {
             attributeSet.keywords?.append(user.group)
             attributeSet.phoneNumbers = [user.phone]
             attributeSet.contentDescription = user.group
-
             // так же мы можем добавить иконку, другие контакты и другую информацию
             
             let item = CSSearchableItem(uniqueIdentifier: String(user.id), domainIdentifier: nil, attributeSet: attributeSet)
@@ -63,15 +51,6 @@ class CoreSpotlightVC: UIViewController {
            print("index: ", error ?? "без ошибок")
        }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 }
 

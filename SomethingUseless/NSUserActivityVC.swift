@@ -20,14 +20,8 @@ class NSUserActivityVC: UIViewController {
         tableView.dataSource = self
     }
     
-    
-    
-    
-    
-    
-        
     private func addUserActivity(for user: User) {
-        let userActivity = NSUserActivity(activityType: "   ")
+        let userActivity = NSUserActivity(activityType: "com.trofimov.something.contact")
                 
         userActivity.userInfo = ["id": user.id]
 
@@ -35,7 +29,7 @@ class NSUserActivityVC: UIViewController {
 //        userActivity.isEligibleForHandoff = true
 //        userActivity.isEligibleForPrediction = true
         userActivity.isEligibleForPublicIndexing = true
-
+        
 //        userActivity.title = "Search Tutorial"
 //        userActivity.keywords = []
         
@@ -51,13 +45,6 @@ class NSUserActivityVC: UIViewController {
         self.userActivity = userActivity
         self.userActivity?.becomeCurrent()
     }
-    
-    
-    
-    
-    
-    
-    
     
 }
 
